@@ -1,0 +1,71 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+#conversion {
+    margin: 10px;
+}
+
+#input {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+
+#input-currency {
+    height: 35px;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+option {
+    text-align: center;
+}
+
+#arrow {
+    color: white;
+    height: 30px;
+    width: 50px;
+}
+
+#output-currency {
+    height: 35px;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+#output {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+#button {
+    height: 35px;
+    width: 530px;
+    color: black;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: white;
+    border-color: white;
+    transition-duration: 0.6s;
+}
+
+#button:hover {
+    background-color: red;
+    border-color: red;
+}
